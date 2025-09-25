@@ -79,12 +79,13 @@
     const header = el('div', { className: 'item-header' });
     const left = el('div');
     const title = el('div', { className: 'item-title', text: titleText });
-    if (metaText) {
-      const meta = el('div', { className: 'item-meta', text: metaText });
-      left.append(title, meta);
-    } else {
-      left.append(title);
-    }
+    // if (metaText) {
+    //   const meta = el('div', { className: 'item-meta', text: metaText });
+    //   left.append(title, meta);
+    // } else {
+    //   left.append(title);
+    // }
+    left.append(title);
     const toggle = createDisclosureButton();
     const desc = createHiddenDescription(metaText || '');
     toggle.addEventListener('click', () => {
