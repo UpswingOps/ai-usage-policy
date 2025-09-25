@@ -1,0 +1,65 @@
+{
+  "dos": [
+    {
+      "title": "Be clear and specific",
+      "description": "Provide clear and specific instructions to get the best results."
+    },
+    {
+      "title": "Use examples",
+      "description": "Include examples to illustrate your points and guide the model."
+    },
+    {
+      "title": "Iterate and refine",
+      "description": "Continuously refine your prompts based on the responses you receive."
+    }
+  ],
+  "donts": [
+    {
+      "title": "Avoid ambiguity",
+      "description": "Don't use vague or ambiguous language that can lead to misunderstandings."
+    },
+    {
+      "title": "Don't overload",
+      "description": "Avoid including too many instructions in a single prompt, which can confuse the model."
+    },
+    {
+      "title": "Avoid sensitive topics",
+      "description": "Refrain from prompting the model on sensitive or controversial subjects."
+    }
+  ],
+  "approved_tools": [
+    {
+      "name": "Tool A",
+      "description": "A tool for data analysis."
+    },
+    {
+      "name": "Tool B",
+      "description": "A tool for image processing."
+    }
+  ],
+  "key_risks": [
+    {
+      "risk": "Misinformation",
+      "description": "The model may generate incorrect or misleading information."
+    },
+    {
+      "risk": "Bias",
+      "description": "The model may reflect or amplify biases present in the training data."
+    }
+  ],
+  "remember": [
+    "Always review the model's output for accuracy and relevance.",
+    "Keep prompts concise and to the point.",
+    "Stay updated with the latest best practices in prompt engineering."
+  ],
+  "definitions": [
+    {
+      "term": "Prompt",
+      "description": "A prompt is the input given to a language model to generate a response."
+    },
+    {
+      "term": "Language Model",
+      "description": "A language model is an AI system trained to understand and generate human language."
+    }
+  ]
+}

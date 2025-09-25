@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Usage Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 id="site-title">AI Usage Policy</h1>
+      <p class="subtitle">Approved source of truth for company AI policy</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar" aria-label="Controls">
+      <div class="company-input">
+        <label for="companyName">Company:</label>
+        <input id="companyName" type="text" placeholder="UpswingOps" aria-label="Company name">
+        <button id="applyCompany">Apply</button>
+      </div>
+      <div class="search-input">
+        <input id="search" type="search" placeholder="Search policy..." aria-label="Search policy">
+      </div>
+    </section>
+
+    <section id="dos" class="card">
+      <h2>Do's</h2>
+      <div class="items" id="dosList"></div>
+    </section>
+
+    <section id="donts" class="card">
+      <h2>Don'ts</h2>
+      <div class="items" id="dontsList"></div>
+    </section>
+
+    <section id="approved_tools" class="card">
+      <h2>Approved tools</h2>
+      <div class="items" id="toolsList"></div>
+    </section>
+
+    <section id="key_risks" class="card">
+      <h2>Key risks</h2>
+      <div class="items" id="risksList"></div>
+    </section>
+
+    <section id="remember" class="card">
+      <h2>Remember</h2>
+      <ul class="bullet-list" id="rememberList"></ul>
+    </section>    
+
+    <section id="definitions" class="card">
+      <h2>Definitions</h2>
+      <div class="items" id="definitionsList"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> <span id="footerCompany">UpswingOps</span>. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
