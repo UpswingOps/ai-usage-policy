@@ -53,13 +53,11 @@
     "Stay updated with the latest best practices in prompt engineering."
   ],
   "definitions": [
-    {
-      "term": "Prompt",
-      "description": "A prompt is the input given to a language model to generate a response."
-    },
-    {
-      "term": "Language Model",
-      "description": "A language model is an AI system trained to understand and generate human language."
-    }
+    "Prompt Engineering: The practice of designing and refining prompts to effectively communicate with AI models.",
+    "Model: An AI system trained to generate responses based on input prompts.",
+    "Bias: A tendency to favor certain outcomes or perspectives, often due to underlying prejudices in data.",
+    "Misinformation: False or inaccurate information that is spread, regardless of intent to deceive.",
+    "Generative AI: AI systems capable of generating text, images, or other media based on input data.",
+    "Training Data: The dataset used to train an AI model, which influences its behavior and responses."
   ]
 }

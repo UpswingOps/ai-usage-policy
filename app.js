@@ -138,6 +138,7 @@
     try {
       const policy = await loadPolicy(company);
       renderRemember(qs('#rememberList'), policy.remember || []);
+      renderRemember(qs('#definitionsList'), policy.definitions || []);
 
       // Do's
       renderSection(qs('#dosList'), policy.dos || [], (d) => createItemRow(d.title, d.description));
@@ -148,7 +149,7 @@
       // Risks
       renderSection(qs('#risksList'), policy.key_risks || [], (r) => createItemRow(r.risk, r.description));
       // Definitions
-      renderSection(qs('#definitionsList'), policy.definitions || [], (d) => createItemRow(d.term, d.description));
+      // renderSection(qs('#definitionsList'), policy.definitions || [], (d) => createItemRow(d.term, d.description));
 
     } catch (err) {
       console.error(err);
